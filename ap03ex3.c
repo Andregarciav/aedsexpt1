@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <math.h>
 
+
 int main()
 {
     int num1, num2;
@@ -21,14 +22,8 @@ int main()
     {
         num1+=1;
         printf(" %d ; ", num1);
-
-        while (num1 < num2);
-        {
-            num1 += 2;
-            printf(" %d ; ", num1);
-        }
     }
-    else
+    while (num1 < num2);
     {
         num1 += 2;
         printf(" %d ; ", num1);
