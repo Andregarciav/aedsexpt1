@@ -3,7 +3,11 @@
 
 int main()
 {
-   int num, i;
+   int num , i , j ;
    prinf("Piramide\nEscreva um numero");
-   scanf("
+   scanf("%d" , &num);
+   for (i=0 ; i < num ; i++)
+   {
+      for ( 
+   }
 }
