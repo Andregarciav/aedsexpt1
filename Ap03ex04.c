@@ -8,6 +8,11 @@ int main()
    scanf("%d" , &num);
    for (i=0 ; i < num ; i++)
    {
-      for ( 
+      for ( j= 0 ;j < i ; j++)
+      {
+      printf("%d ", j);
+      }
+      printf("\n");
    }
+   return 0;
 }
