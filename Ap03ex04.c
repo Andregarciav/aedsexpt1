@@ -3,14 +3,15 @@
 
 int main()
 {
-   int num , i , j ;
-   prinf("Piramide\nEscreva um numero");
+  int num , i , j, cont=1;
+   printf("Piramide\nEscreva um numero\n");
    scanf("%d" , &num);
-   for (i=0 ; i < num ; i++)
+   for (i=0 ; i <= num ; i++)
    {
-      for ( j= 0 ;j < i ; j++)
+     for (j = 0 ; j < i; j++)
       {
-      printf("%d ", j);
+      printf("%d ", cont);
+      cont++;
       }
       printf("\n");
    }
