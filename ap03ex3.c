@@ -5,12 +5,12 @@
 
 int main()
 {
-    int num1, num2;
-    int aux;
+    int num1, num2; //define números
+    int aux; 
     printf("Escreva o primeiro numero: \n");
-    scanf("%d" , &num1);
+    scanf("%d" , &num1); //identifica a variável
     printf("Escreva o segundo numero: \n");
-    scanf("%d" , &num2);
+    scanf("%d" , &num2); //identifica a variável
     if (num1 > num2) // rearranja o maior
     {
         aux = num1;
@@ -27,6 +27,6 @@ int main()
         num1 += 2;
         printf(" %d ;", num1); //imprime todos os impares do intervalo
     }
-    printf("\n");
-    return 0;
+    printf("\n"); 
+    return 0; //se certo, retorna 0
 }
