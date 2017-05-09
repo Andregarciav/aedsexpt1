@@ -3,17 +3,17 @@
 
 int main()
 {
-  int num , i , j, cont=1;
-   printf("Piramide\nEscreva um numero\n");
-   scanf("%d" , &num);
-   for (i=0 ; i <= num ; i++)
+  int num , i , j, cont=1; //definição das variáveis
+   printf("Piramide\nEscreva um numero\n"); //imprime o comando 
+   scanf("%d" , &num); //lê a variável inserida e armazena em num
+   for (i=0 ; i <= num ; i++) //condições
    {
-     for (j = 0 ; j < i; j++)
+     for (j = 0 ; j < i; j++) //condições
       {
-      printf("%d ", cont);
+      printf("%d ", cont); //lê a variavel inserida e conta
       cont++;
       }
-      printf("\n");
+      printf("\n"); //imprime resultado
    }
-   return 0;
+   return 0; //retorna 0 se tudo der certo
 }
