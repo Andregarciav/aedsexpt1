@@ -1,3 +1,4 @@
-# aedsexpt1
-Exercícios de aeds parte 1
+Exercícios de Algoritmos Estrutura de dados.
+Primeira parte da disciplina.
+Introdução a programação C.
 UFMG 2017-1
